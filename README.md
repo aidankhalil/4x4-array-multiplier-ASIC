@@ -16,8 +16,9 @@
 
 
 ### Test Vector Results for 4x4 Bit Multiplier (Normal Mode | TEST = Low)
+
 Outputs are shown in the following waveforms as **Q9-P(Q16)**. 
-Input bits *Q1-Q8* were not plotted, as selecting only X*in* and Y*in* along with the rising CLK edges was more convenient.
+Input bits *Q1-Q8* were not plotted, as selecting only X*in*, Y*in*, and CLK was more convenient.
 
 ## **Test Vector 1**  
 **Calculation:**  
