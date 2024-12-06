@@ -13,112 +13,77 @@
 ## Final Layout
 ![final-PROD](https://github.com/user-attachments/assets/5bb6e557-4cbb-482e-b366-54a7577058ed)
 
-
 ### Test Vector Results for 4x4 Bit Multiplier (Normal Mode | TEST = Low)
-
----
 
 ## **Test Vector 1**  
 **Calculation:**  
-\[
-(1001)_{\text{2}} \times (1001)_{\text{2}} = (0101\ 0001)_{\text{2}}
-\]  
-![normal-mode-testVector-1](https://github.com/user-attachments/assets/74d4460e-5eb4-45d0-93cb-da39d95a16b0)  
+`(1001)₂ * (1001)₂ = (0101 0001)₂`  
+![test_vector_1](https://github.com/user-attachments/assets/1f8d1c16-0e24-4f2c-9e3e-6e7179a9a70f)  
 **Explanation:**  
-\[
-9_{10} \times 9_{10} = 81_{10} = 0101\ 0001_{\text{2}}
-\]
+`9₁₀ * 9₁₀ = 81₁₀ = 0101 0001₂`
 
 ---
 
 ## **Test Vector 2**  
 **Calculation:**  
-\[
-(1111)_{\text{2}} \times (0011)_{\text{2}} = (0010\ 1101)_{\text{2}}
-\]  
-![normal-mode-testVector-2](https://github.com/user-attachments/assets/82861433-5bb8-475a-a6e8-a971568fb9b7)  
+`(1111)₂ * (0011)₂ = (0010 1101)₂`  
+![test_vector_2](https://github.com/user-attachments/assets/3bf9e58a-6211-43c3-9d64-6589adaba9fd)  
 **Explanation:**  
-\[
-15_{10} \times 3_{10} = 45_{10} = 0010\ 1101_{\text{2}}
-\]
+`15₁₀ * 3₁₀ = 45₁₀ = 0010 1101₂`
 
 ---
 
 ## **Test Vector 3**  
 **Calculation:**  
-\[
-(1001)_{\text{2}} \times (1011)_{\text{2}} = (0110\ 0011)_{\text{2}}
-\]  
-![normal-mode-testVector-3](https://github.com/user-attachments/assets/4b44891c-9753-49b0-a4a2-dfd3c6a17945)  
+`(1001)₂ * (1011)₂ = (0110 0011)₂`  
+![test_vector_3](https://github.com/user-attachments/assets/7d2a58e3-fcc5-4c4d-b080-ec4796d02da4)  
 **Explanation:**  
-\[
-9_{10} \times 11_{10} = 99_{10} = 0110\ 0011_{\text{2}}
-\]
+`9₁₀ * 11₁₀ = 99₁₀ = 0110 0011₂`
 
 ---
 
 ## **Test Vector 4**  
 **Calculation:**  
-\[
-(0011)_{\text{2}} \times (0011)_{\text{2}} = (0000\ 1001)_{\text{2}}
-\]  
-![normal-mode-testVector-4](https://github.com/user-attachments/assets/62aadbec-374d-477e-a6cc-9cddeeb3f8f2)  
+`(0011)₂ * (0011)₂ = (0000 1001)₂`  
+![test_vector_4](https://github.com/user-attachments/assets/f0cd9c77-f66c-460b-9029-d7d697070603)  
 **Explanation:**  
-\[
-3_{10} \times 3_{10} = 9_{10} = 0000\ 1001_{\text{2}}
-\]
+`3₁₀ * 3₁₀ = 9₁₀ = 0000 1001₂`
 
 ---
 
 ## **Test Vector 5**  
 **Calculation:**  
-\[
-(1111)_{\text{2}} \times (1111)_{\text{2}} = (1110\ 0001)_{\text{2}}
-\]  
-![normal-mode-testVector-5](https://github.com/user-attachments/assets/a2046495-2395-4179-847c-537ebf49576e)  
+`(1111)₂ * (1111)₂ = (1110 0001)₂`  
+![test_vector_5](https://github.com/user-attachments/assets/c5ad038d-9463-4e2b-b6a3-1a213810395d)  
 **Explanation:**  
-\[
-15_{10} \times 15_{10} = 225_{10} = 1110\ 0001_{\text{2}}
-\]
+`15₁₀ * 15₁₀ = 225₁₀ = 1110 0001₂`
 
 ---
 
 ## **Test Vector 6**  
 **Calculation:**  
-\[
-(0000)_{\text{2}} \times (0000)_{\text{2}} = (0000\ 0000)_{\text{2}}
-\]  
-![normal-mode-testVector-6](https://github.com/user-attachments/assets/fdf74ee8-6250-4f8a-909a-cd6e4952cbfc)  
+`(0000)₂ * (0000)₂ = (0000 0000)₂`  
+![test_vector_6](https://github.com/user-attachments/assets/f8d7f08a-c05f-4639-bc83-9256b0bc57e4)  
 **Explanation:**  
-\[
-0_{10} \times 0_{10} = 0_{10} = 0000\ 0000_{\text{2}}
-\]
+`0₁₀ * 0₁₀ = 0₁₀ = 0000 0000₂`
 
 ---
 
 ## **Test Vector 7**  
 **Calculation:**  
-\[
-(1111)_{\text{2}} \times (0000)_{\text{2}} = (0000\ 0000)_{\text{2}}
-\]  
-![normal-mode-testVector-7](https://github.com/user-attachments/assets/1724ef1a-8e9c-42ca-8874-0538f967c0ab)  
+`(1111)₂ * (0000)₂ = (0000 0000)₂`  
+![test_vector_7](https://github.com/user-attachments/assets/274c9a99-3fdb-4b96-967d-bf9803c8d7a5)  
 **Explanation:**  
-\[
-15_{10} \times 0_{10} = 0_{10} = 0000\ 0000_{\text{2}}
-\]
+`15₁₀ * 0₁₀ = 0₁₀ = 0000 0000₂`
 
 ---
 
 ## **Test Vector 8**  
 **Calculation:**  
-\[
-(1001)_{\text{2}} \times (0011)_{\text{2}} = (0001\ 1011)_{\text{2}}
-\]  
-![normal-mode-testVector-8](https://github.com/user-attachments/assets/409dfbcf-2175-4371-9fcd-70122b742bbb)  
+`(1001)₂ * (0011)₂ = (0001 1011)₂`  
+![test_vector_8](https://github.com/user-attachments/assets/4b6181b3-7e2c-4b61-b88e-d9d431f1a4c0)  
 **Explanation:**  
-\[
-9_{10} \times 3_{10} = 27_{10} = 0001\ 1011_{\text{2}}
-\]
+`9₁₀ * 3₁₀ = 27₁₀ = 0001 1011₂`
 
 ---
 
