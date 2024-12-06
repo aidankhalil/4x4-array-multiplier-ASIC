@@ -17,7 +17,7 @@
 
 ### Test Vector Results for 4x4 Bit Multiplier (Normal Mode | TEST = Low)
 
-Outputs are shown in the following waveforms as **Q9-P(Q16)**. 
+Outputs are shown in the following waveforms as **Q9-P(Q16)**, where P (*aka* 'Q16') is the MSB and Q9 the LSB.
 Input bits *Q1-Q8* were not plotted, as selecting only X*in*, Y*in*, and CLK was more convenient.
 
 ## **Test Vector 1**  
