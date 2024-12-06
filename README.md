@@ -13,7 +13,10 @@
 ## Final Layout
 ![Final Product](https://github.com/user-attachments/assets/5bb6e557-4cbb-482e-b366-54a7577058ed)
 
+
+
 ### Test Vector Results for 4x4 Bit Multiplier (Normal Mode | TEST = Low)
+Outputs are shown on resulting waveforms as **Q9-P(Q16)**. Input bits *Q1-Q8* were not plotted, as selecting only X*in* and Y*in* along with the rising CLK edges was more convenient.
 
 ## **Test Vector 1**  
 **Calculation:**  
@@ -86,6 +89,8 @@
 `9₁₀ * 3₁₀ = 27₁₀ = 0001 1011₂`
 
 ---
+
+
 
 ### Test Mode (TEST=1)
 
