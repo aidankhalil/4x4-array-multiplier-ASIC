@@ -19,6 +19,7 @@
 
 Outputs are shown in the following waveforms as **Q9-P(Q16)**, where P (*aka* 'Q16') is the MSB and Q9 the LSB.
 Input bits *Q1-Q8* were not plotted, as selecting only X*in*, Y*in*, and CLK was more convenient.
+Most of these waveforms require a few clock cycles to take into account the component delays before outputting the product (i.e. after the fifth rising edge of Test Vector 1..)
 
 ## **Test Vector 1**  
 **Calculation:**  
