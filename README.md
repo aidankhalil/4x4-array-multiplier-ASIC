@@ -5,20 +5,20 @@
 [Click HERE for project powerpoint recording](./layouts/)
 
 ## Full Adder Reference (Textbook Image)
-![Full-Adder-Reference](https://github.com/user-attachments/assets/54c2e8d4-6c03-45fa-9ef6-a7209aa6d3b6)
+![Full Adder Reference](https://github.com/user-attachments/assets/54c2e8d4-6c03-45fa-9ef6-a7209aa6d3b6)
 
 ## NxN Array Multiplier Reference (Textbook Image)
-![array_multiplier_reference](https://github.com/user-attachments/assets/85f14be7-59e1-49b7-8429-6b27de124c81)
+![Array_Multiplier_Reference](https://github.com/user-attachments/assets/85f14be7-59e1-49b7-8429-6b27de124c81)
 
 ## Final Layout
-![final-PROD](https://github.com/user-attachments/assets/5bb6e557-4cbb-482e-b366-54a7577058ed)
+![Final Product](https://github.com/user-attachments/assets/5bb6e557-4cbb-482e-b366-54a7577058ed)
 
 ### Test Vector Results for 4x4 Bit Multiplier (Normal Mode | TEST = Low)
 
 ## **Test Vector 1**  
 **Calculation:**  
 `(1001)₂ * (1001)₂ = (0101 0001)₂`  
-![test_vector_1](https://github.com/user-attachments/assets/1f8d1c16-0e24-4f2c-9e3e-6e7179a9a70f)  
+![test_vector_1](![normal-mode-testVector-1](https://github.com/user-attachments/assets/5addcfc2-48b2-4f32-830d-af6fc6eafcac))  
 **Explanation:**  
 `9₁₀ * 9₁₀ = 81₁₀ = 0101 0001₂`
 
@@ -27,7 +27,7 @@
 ## **Test Vector 2**  
 **Calculation:**  
 `(1111)₂ * (0011)₂ = (0010 1101)₂`  
-![test_vector_2](https://github.com/user-attachments/assets/3bf9e58a-6211-43c3-9d64-6589adaba9fd)  
+![test_vector_2](![normal-mode-testVector-2](https://github.com/user-attachments/assets/1e1f2396-f35b-4ae2-8722-a76ad490db78))
 **Explanation:**  
 `15₁₀ * 3₁₀ = 45₁₀ = 0010 1101₂`
 
@@ -36,7 +36,7 @@
 ## **Test Vector 3**  
 **Calculation:**  
 `(1001)₂ * (1011)₂ = (0110 0011)₂`  
-![test_vector_3](https://github.com/user-attachments/assets/7d2a58e3-fcc5-4c4d-b080-ec4796d02da4)  
+![test_vector_3](![normal-mode-testVector-3](https://github.com/user-attachments/assets/53f4a64d-28ba-49df-bd60-bcf63c9988bb))
 **Explanation:**  
 `9₁₀ * 11₁₀ = 99₁₀ = 0110 0011₂`
 
@@ -45,7 +45,7 @@
 ## **Test Vector 4**  
 **Calculation:**  
 `(0011)₂ * (0011)₂ = (0000 1001)₂`  
-![test_vector_4](https://github.com/user-attachments/assets/f0cd9c77-f66c-460b-9029-d7d697070603)  
+![test_vector_4](![normal-mode-testVector-4](https://github.com/user-attachments/assets/088e4356-f1df-45e1-8baa-c420c53604d3))  
 **Explanation:**  
 `3₁₀ * 3₁₀ = 9₁₀ = 0000 1001₂`
 
@@ -54,7 +54,7 @@
 ## **Test Vector 5**  
 **Calculation:**  
 `(1111)₂ * (1111)₂ = (1110 0001)₂`  
-![test_vector_5](https://github.com/user-attachments/assets/c5ad038d-9463-4e2b-b6a3-1a213810395d)  
+![test_vector_5](![normal-mode-testVector-5](https://github.com/user-attachments/assets/5fa7a3f4-5030-4abf-a140-5f3e85e8dd85))  
 **Explanation:**  
 `15₁₀ * 15₁₀ = 225₁₀ = 1110 0001₂`
 
@@ -63,7 +63,7 @@
 ## **Test Vector 6**  
 **Calculation:**  
 `(0000)₂ * (0000)₂ = (0000 0000)₂`  
-![test_vector_6](https://github.com/user-attachments/assets/f8d7f08a-c05f-4639-bc83-9256b0bc57e4)  
+![test_vector_6](![normal-mode-testVector-6](https://github.com/user-attachments/assets/65833124-67ae-41ce-9586-c13e8025d82e))  
 **Explanation:**  
 `0₁₀ * 0₁₀ = 0₁₀ = 0000 0000₂`
 
@@ -72,7 +72,7 @@
 ## **Test Vector 7**  
 **Calculation:**  
 `(1111)₂ * (0000)₂ = (0000 0000)₂`  
-![test_vector_7](https://github.com/user-attachments/assets/274c9a99-3fdb-4b96-967d-bf9803c8d7a5)  
+![test_vector_7](![normal-mode-testVector-7](https://github.com/user-attachments/assets/0aa84043-c9c4-418b-9b94-ef6ed393e2ac))  
 **Explanation:**  
 `15₁₀ * 0₁₀ = 0₁₀ = 0000 0000₂`
 
@@ -81,7 +81,7 @@
 ## **Test Vector 8**  
 **Calculation:**  
 `(1001)₂ * (0011)₂ = (0001 1011)₂`  
-![test_vector_8](https://github.com/user-attachments/assets/4b6181b3-7e2c-4b61-b88e-d9d431f1a4c0)  
+![test_vector_8](![normal-mode-testVector-8](https://github.com/user-attachments/assets/f93b6698-654f-4149-9eb9-3de2658d0c72))  
 **Explanation:**  
 `9₁₀ * 3₁₀ = 27₁₀ = 0001 1011₂`
 
