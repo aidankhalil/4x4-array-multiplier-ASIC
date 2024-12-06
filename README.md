@@ -1,8 +1,7 @@
 # 4x4 Multiplier in Cadence Virtuoso
 
-[Click HERE for Project Report](./more-info.md)
+[Click HERE for Project Report](./final_product/finalProject/Design%20Report.pdf)
 
-[Click HERE for Project Powerpoint Recording](./layouts/)
 
 ## Full Adder Reference (Textbook Image)
 ![Full Adder Reference](https://github.com/user-attachments/assets/54c2e8d4-6c03-45fa-9ef6-a7209aa6d3b6)
